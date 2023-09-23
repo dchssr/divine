@@ -3,7 +3,9 @@
   "packageManager": "yarn@3.6.3",
   "devDependencies": {
     "@types/mithril": "^2.0.14",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
     "mithril": "^2.2.2"
