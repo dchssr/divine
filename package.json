@@ -2,7 +2,9 @@
   "name": "divine",
   "packageManager": "yarn@3.6.3",
   "scripts": {
-    "dev": "yarn webpack serve --mode=development"
+    "dev": "yarn webpack serve --mode=development",
+    "build": "yarn webpack build",
+    "clean": "rm dist/app.js"
   },
   "devDependencies": {
     "@types/mithril": "^2.0.14",

@@ -31,7 +31,7 @@ const config = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "public"),
+      directory: path.join(__dirname, "dist"),
     },
     port: 8080,
   }
