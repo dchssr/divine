@@ -2,7 +2,7 @@
   "name": "divine",
   "packageManager": "yarn@3.6.3",
   "scripts": {
-    "dev": "yarn dlx webpack serve"
+    "dev": "yarn webpack serve"
   },
   "devDependencies": {
     "@types/mithril": "^2.0.14",
