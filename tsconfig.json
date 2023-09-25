@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "es6",
-    // "moduleResolution": "node10",
+    "moduleResolution": "node",
     "allowJs": true,
     // "checkJs": true,
     // "outFile": "./",
@@ -17,6 +17,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*.ts"
   ],
 }
